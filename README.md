@@ -1,4 +1,4 @@
 # knot-us
 Wedding website for my final year project.
 
-This website will allow user to plan their wedding, search for vendors and etc (will update when I have ideas).
+Designed with simplicity in mind, Knot.Us is ideal for those who desire a memorable wedding experience but may lack the expertise or resources to engage a professional wedding planner. Boasting a user-friendly interface, our website provides curated preset to-do lists and budgeting tools, offering a structured roadmap to transform your vision into reality.
