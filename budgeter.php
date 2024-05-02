@@ -326,19 +326,6 @@ $balance = getBalance();
                           <input type="text" class="form-control" placeholder="Product/Vendor" name="vendor" style="width: 100%; opacity: 70%;">
                         </div>
                       </div>
-                      <div class="col">
-                        <select class="form-select form-select mb-3" aria-label=".form-select-lg example" style="opacity: 80%;" name="category" id="category">
-                          <option selected disabled>Select a Category</option>
-                          <option value="Venue">Venue</option>
-                          <option value="Photos & Videos">Photos & Videos</option>
-                          <option value="Food & Drink">Food & Drink</option>
-                          <option value="Attire">Attire</option>
-                          <option value="Music">Music</option>
-                          <option value="Flowers & Decor">Flowers & Decor</option>
-                          <option value="Beauty">Beauty</option>
-                          <option value="Others">Others</option>
-                        </select>
-                      </div>
                     </div>
                     <div class="row">
                       <div class="col">
@@ -401,7 +388,6 @@ $balance = getBalance();
                   <th scope="col">Price</th>
                   <th scope="col">Phone Number</th>
                   <th scope="col">Detail</th>
-                  <th scope="col">Category</th>
                   <th scope="col">Action</th>
                 </tr>
               </thead>
@@ -412,7 +398,6 @@ $balance = getBalance();
                     <td>RM <?= number_format($expenses['price'],2) ?></td>
                     <td><?= $expenses['phone'] ?></td>
                     <td><?= $expenses['detail'] ?></td>
-                    <td><?= $expenses['category'] ?></td>
                     <td>
                       <a href="budgeter.php?b_id=<?= $expenses['b_id']; ?>&action=delete" class="btn btn-danger">Delete</a>
                     </td>

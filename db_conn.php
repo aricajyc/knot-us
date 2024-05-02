@@ -3,7 +3,7 @@
 $sName = "localhost";
 $username = "root";
 $password = "";
-$dbname = "knotus_reserve";
+$dbname = "knot-us";
 
 $cxn = mysqli_connect($sName, $username, $password, $dbname);
 

@@ -1,0 +1,30 @@
+{
+  "name": "knot-us",
+  "version": "1.0.0",
+  "description": "wedding to-do list website",
+  "main": "homepage.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aricajyc/knot-us.git"
+  },
+  "keywords": [
+    "wedding",
+    "to-do",
+    "list",
+    "php",
+    "html",
+    "css"
+  ],
+  "author": "Arica Joyce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aricajyc/knot-us/issues"
+  },
+  "homepage": "https://github.com/aricajyc/knot-us#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
