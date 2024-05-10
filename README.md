@@ -1,4 +1,4 @@
-# knot-us
+# Knot Us
 Wedding planning website for my final year project.
 
 Objective:
